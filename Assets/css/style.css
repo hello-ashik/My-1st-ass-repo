@@ -2,3 +2,130 @@
     padding: 0px;
     margin: 0px;
 }
+.primary-color{
+    color: #4E47FF;
+
+}
+.title-color{
+    color:#252432 ;
+}
+.bg-color{
+    background-color: #4E47FF;
+}
+header{
+   background-image: url("../img/Hero-bg.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 650px;
+  
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 10px 200px;
+    
+}
+.nav-logo{
+    font-size: 34px;
+    font-weight: 800px;
+    
+}
+.btn-nav{
+    width: 132px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px;
+}
+.banner{
+
+    align-items: center;
+    text-align: center;
+    margin: 200px 20px;
+    padding: 20px 150px;
+    gap: 30px;
+
+    
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432
+    
+
+}
+.btn-ban{
+    width: 200px;
+    height: 48px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.preview-section{
+    display: flex;
+    padding: 50px 20px;
+    gap: 25px;
+   
+
+}
+.preview-btn{
+    width: 230px;
+    height: 48px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+}
+.preview-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 580px;
+    gap: 20px;
+}
+.preview-title{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.preview-description{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.preview-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 30px;
+}
+
+ .form-section{
+
+ }
+ .touch-btn{
+    height: 62px;
+    width: 497px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0px;
+    
+
+ }
+
+footer{
+    padding: 130px 200px;
+    
+}
