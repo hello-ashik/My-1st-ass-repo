@@ -247,3 +247,6 @@ footer{
     font-size: 18px;
     border: none;
 }
+button:hover{
+ background-color: #757aff;
+}
