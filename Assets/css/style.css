@@ -2,9 +2,12 @@
     padding: 0px;
     margin: 0px;
 }
+
+body{
+  font-family: "Inter", sans-serif;
+}
 .primary-color{
     color: #4E47FF;
-
 }
 .title-color{
     color:#252432 ;
@@ -18,8 +21,6 @@ header{
    background-position: center;
    background-size: cover;
    height: 650px;
-  
-   
 }
 nav{
     display: flex;
@@ -27,12 +28,10 @@ nav{
     justify-content: space-between;
    
     padding: 10px 200px;
-    
 }
 .nav-logo{
     font-size: 34px;
     font-weight: 800px;
-    
 }
 .btn-nav{
     width: 132px;
@@ -49,15 +48,11 @@ nav{
     margin: 200px 20px;
     padding: 20px 150px;
     gap: 30px;
-
-    
 }
 .banner h1{
     font-size: 65px;
     font-weight: bold;
     color: #252432
-    
-
 }
 .btn-ban{
     width: 200px;
@@ -72,14 +67,11 @@ nav{
 main{
     max-width: 1140px;
     margin: 0 auto;
-
 }
 .preview-section{
     display: flex;
     padding: 50px 20px;
     gap: 25px;
-   
-
 }
 .preview-btn{
     width: 230px;
@@ -99,18 +91,16 @@ main{
 .preview-title{
     font-size: 45px;
     font-weight: bold;
-
 }
 .preview-description{
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 .preview-image{
     width: 403px;
     height: 328px;
     border-radius: 30px;
 }
-
  .form-section{
 
  }
@@ -121,11 +111,66 @@ main{
     font-size: 18px;
     border-radius: 10px;
     border: 0px;
-    
-
  }
-
 footer{
     padding: 130px 200px;
-    
+}
+.productive_section{
+    padding: 100px 20px;
+}
+.productiv_inner{
+    padding: 50px;
+    background-color: #ecf0ff;
+    border-radius: 10px;
+}
+.productive_heading{
+    font-size: 38px;
+   font-weight: 700; 
+   text-align: center;
+}
+.productivity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.productive_item{
+    text-align: center;
+    padding: 20px;
+}
+.productive_item span{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.productive_item p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #252432;
+}
+.footer{
+    padding: 50px 20px;
+}
+.footer_logo{
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+    text-align: center;
+}
+.footer_description{
+    text-align: center;
+    font-size: 14px;
+    color: #8987A1;
+
+}
+.footer_nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer_nav ul li a{
+   text-decoration: none;
+   font-size: 14px;
+
 }
