@@ -4,7 +4,8 @@
 }
 
 body{
-  font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
+    background-color: #f5f8ff;
 }
 .primary-color{
     color: #4E47FF;
@@ -26,7 +27,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
     padding: 10px 200px;
 }
 .nav-logo{
@@ -42,7 +42,6 @@ nav{
     border: 0px;
 }
 .banner{
-
     align-items: center;
     text-align: center;
     margin: 200px 20px;
@@ -65,13 +64,16 @@ nav{
     margin-bottom: 30px;
 }
 main{
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
+
 }
-.preview-section{
+.preview-section {
     display: flex;
     padding: 50px 20px;
     gap: 25px;
+    flex-direction: row;
+    align-items: center;
 }
 .preview-btn{
     width: 230px;
@@ -81,12 +83,16 @@ main{
     border-radius: 5px;
     border: 0px;
 }
-.preview-content {
+.preview_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 580px;
     gap: 20px;
+    width: 50%;
+}
+.preview_img{
+    width: 50%;
+    text-align: end;
 }
 .preview-title{
     font-size: 45px;
@@ -106,7 +112,7 @@ main{
  }
  .touch-btn{
     height: 62px;
-    width: 497px;
+    width: 100%;
     color: white;
     font-size: 18px;
     border-radius: 10px;
@@ -169,8 +175,75 @@ footer{
     justify-content: center;
     margin-top: 20px;
 }
-.footer_nav ul li a{
-   text-decoration: none;
-   font-size: 14px;
-
+.footer_nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #6b6a6a;
+}
+.form_section {
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+.form_title{
+    width: 50%;
+}
+.form{
+    width: 50%;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    padding: 10px;
+}
+.form input, .form textarea {
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid #D6DDED;
+    background-color: #fff;
+    margin: 10px 0;
+}
+.form_title h2{
+    font-size: 100px;
+}
+.focus_inner {
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.focus_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    align-items: center;
+}
+.focus_inner img {
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+.focus h2{
+    font-size: 50px;
+    text-align: center;
+}
+.focus p{
+    font-size: 14px;
+    text-align: center;
+}
+.focus button {
+    text-align: center;
+    padding: 15px 20px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #4e47ff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
 }
